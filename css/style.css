@@ -274,7 +274,7 @@ img {
 .team-socials-item:hover a {
     background-color: #404bbf;
 }
-.team-socials-item:focus a {
+.team-socials-item a:focus{
     background-color: #404bbf;
 }
 /* .team-socials-item:not(:last-child) {
@@ -383,8 +383,10 @@ img {
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-socials-item:hover a,
-.footer-socials-item:focus a {
+.footer-socials-item:hover a {
+    background-color: #31d0aa;
+}
+.footer-social-link:focus {
     background-color: #31d0aa;
 }
 
