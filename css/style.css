@@ -93,6 +93,7 @@ img {
 .header-item.active {
     display: flex;
     flex-direction: column;
+    color:#404BBF;
 
 }
 .header-item.active::after {
